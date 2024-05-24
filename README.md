@@ -2,7 +2,7 @@
 
 [![Test status](https://github.com/Qit-tools/number-to-words/workflows/Node_CI/badge.svg)](https://github.com/Qit-tools/number-to-words/actions/workflows/node.js.yml)
 
-This library converts numbers to english words, supporting both general numeric values and monetary values with customizable currency and minor units.
+This tiny library (🪶 1.4 KB) converts numbers to English words, supporting both general numeric values and monetary values with customizable currency and minor units.
 
 👀 [DEMO](https://qit.tools/converters/number/to-words/)
 

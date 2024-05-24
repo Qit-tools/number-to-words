@@ -1,7 +1,7 @@
 {
   "name": "@qit.tools/number-to-words",
-  "version": "0.0.3",
-  "description": "This library converts numbers to english words, supporting both general numeric values and monetary values with customizable currency and minor units.",
+  "version": "0.0.5",
+  "description": "This tiny library (🪶 1.4 KB) converts numbers to English words, supporting both general numeric values and monetary values with customizable currency and minor units.",
   "types": "./dist/esnext/index.d.ts",
   "exports": {
     ".": {
@@ -57,7 +57,17 @@
   },
   "homepage": "https://qit.tools/converters/number/to-words/",
   "keywords": [
-    "remove"
+    "to words",
+    "number to words",
+    "number to words currency",
+    "international number to words",
+    "international number to words currency",
+    "convert-numbers",
+    "i18n",
+    "converter",
+    "number",
+    "word",
+    "currency"
   ],
   "bugs": {
     "url": "https://github.com/Qit-tools/number-to-words/issues"
