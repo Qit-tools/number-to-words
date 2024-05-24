@@ -1,6 +1,6 @@
 {
   "name": "@qit.tools/number-to-words",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This tiny library (🪶 1.4 KB) converts numbers to English words, supporting both general numeric values and monetary values with customizable currency and minor units.",
   "types": "./dist/esnext/index.d.ts",
   "exports": {
@@ -65,6 +65,8 @@
     "number to words currency",
     "convert-numbers",
     "converter",
+    "number-to-text",
+    "convert",
     "number",
     "word",
     "number-to-words",
