@@ -1,6 +1,6 @@
 {
   "name": "@qit.tools/number-to-words",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This tiny library (🪶 1.4 KB) converts numbers to English words, supporting both general numeric values and monetary values with customizable currency and minor units.",
   "types": "./dist/esnext/index.d.ts",
   "exports": {
@@ -19,7 +19,6 @@
     "build": "npm run fmt && npm test && rollup -c rollup.browser.config.js && rollup -c rollup.esnext.config.js",
     "test": "vitest run",
     "test:watch": "vitest",
-    "start": "ts-node index.ts",
     "lint": "eslint './**/*.{ts,tsx}' --fix",
     "fmt": "prettier --write '**/*.{ts,json}'"
   },

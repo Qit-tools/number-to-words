@@ -6,24 +6,34 @@ This tiny library (🪶 1.4 KB) converts numbers to English words, supporting bo
 
 👀 [DEMO](https://qit.tools/converters/number/to-words/)
 
-## 🎉 Install
+## CDN
 
-### NPM
+- [unpkg](https://unpkg.com/browse/@qit.tools/number-to-words/)
+
+## 🏗️ Install
+
+### 🎉 NPM
 
 ```bash
-npm install number-to-words
+npm i @qit.tools/number-to-words
 ```
 
-### Yarn
+### 🧁 Bun
 
 ```bash
-yarn add number-to-words
+bun add @qit.tools/number-to-words
 ```
 
-### PNPM
+### 🌟 PNPM
 
 ```bash
-pnpm add number-to-words
+pnpm add @qit.tools/number-to-words
+```
+
+### 🧶 Yarn
+
+```bash
+yarn add @qit.tools/number-to-words
 ```
 
 ## 🎓 How to use
@@ -31,7 +41,7 @@ pnpm add number-to-words
 ### Importing the Function
 
 ```ts
-import { numberToWords } from "number-to-words";
+import { numberToWords } from "@qit.tools/number-to-words";
 ```
 
 ### Basic Usage
