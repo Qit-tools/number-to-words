@@ -1,0 +1,76 @@
+{
+  "name": "@qit.tools/number-to-words",
+  "version": "0.0.1",
+  "description": "...",
+  "types": "./dist/esnext/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esnext/index.js",
+      "types": "./dist/esnext/index.d.ts"
+    }
+  },
+  "files": [
+    "./dist/esnext/index.js",
+    "./dist/esnext/index.d.ts",
+    "./dist/browser/latest.min.js",
+    "./dist/browser/latest.min.js.map"
+  ],
+  "scripts": {
+    "build": "npm run fmt && npm test && rollup -c rollup.browser.config.js && rollup -c rollup.esnext.config.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "ts-node index.ts",
+    "lint": "eslint './**/*.{ts,tsx}' --fix",
+    "fmt": "prettier --write '**/*.{ts,json}'"
+  },
+  "vitest": {
+    "globals": true,
+    "environment": "node",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.12",
+    "@types/tape": "^5.6.4",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "prettier": "3.2.5",
+    "rollup": "^4.18.0",
+    "rollup-plugin-minification": "^0.2.0",
+    "tape": "^5.7.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.10.0",
+    "vitest": "^1.6.0"
+  },
+  "author": {
+    "name": "Qit.tools",
+    "email": "info@qit.tools",
+    "url": "https://qit.tools/"
+  },
+  "homepage": "https://qit.tools/converters/number/to-words/",
+  "keywords": [
+    "remove"
+  ],
+  "bugs": {
+    "url": "https://github.com/Qit-tools/number-to-words/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qit-tools/number-to-words.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/deyurii"
+  },
+  "type": "module",
+  "license": "MIT"
+}
