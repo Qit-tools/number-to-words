@@ -1,6 +1,6 @@
 # Number to Words Converter
 
-[![Test status](https://github.com/Qit-tools/number-to-words/workflows/Node.js%20CI/badge.svg)](https://github.com/Qit-tools/number-to-words/actions/workflows/node.js.yml)
+[![Test status](https://github.com/Qit-tools/number-to-words/workflows/Node_CI/badge.svg)](https://github.com/Qit-tools/number-to-words/actions/workflows/node.js.yml)
 
 This library converts numbers to english words, supporting both general numeric values and monetary values with customizable currency and minor units.
 
