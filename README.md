@@ -4,7 +4,7 @@
 
 This library converts numbers to english words, supporting both general numeric values and monetary values with customizable currency and minor units.
 
-[👀 DEMO](https://qit.tools/converters/number/to-words/)
+👀 [DEMO](https://qit.tools/converters/number/to-words/)
 
 ## 🎉 Install
 
